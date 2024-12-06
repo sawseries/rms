@@ -31,7 +31,7 @@ form {
 }
 
 .container-fluid{
-    min-height:1000px;
+    min-height:900px;
 }
 
     </style>
@@ -40,21 +40,21 @@ form {
   <body>
 
 <div class="container-fluid">
-    <div class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">PSU</a>
-</div>
+    <div class="navbar" style="background-color:#003C71;">
+    <a class="navbar-brand" style="color:white;" href="#"><b>PSU</b> prince of songkhla university</a>
+    </div>
 
 
    <div class="row row-centered">
 <form>
   <!-- Email input -->
-    <div data-mdb-input-init class="form-outline mb-6">
+    <div data-mdb-input-init class="form-outline mb-7">
     <input type="email" id="form2Example1" class="form-control" />
     <label class="form-label" for="form2Example1">Email address</label>
     </div>
 
   <!-- Password input -->
-    <div data-mdb-input-init class="form-outline mb-6">
+    <div data-mdb-input-init class="form-outline mb-7">
     <input type="password" id="form2Example2" class="form-control" />
     <label class="form-label" for="form2Example2">Password</label>
     </div>
@@ -106,7 +106,7 @@ form {
    
 
     </div>
-    <footer>    
+    <footer style="background-color:#003C71;color:white;">    
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
     ©2024 Copyright:
